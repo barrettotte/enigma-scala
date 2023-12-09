@@ -20,4 +20,5 @@ This was made to learn the basics of Scala for a future project in Apache Spark.
   - https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma
   - https://www.youtube.com/watch?v=ybkkiGtJmkM
   - https://cryptii.com/pipes/enigma-machine
+  - https://dencode.com/en/cipher/enigma
 

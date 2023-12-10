@@ -1,8 +1,9 @@
 # enigma-scala
 
-WWII Enigma cipher machine simulator in Scala
+Simple enigma machine encrypt in scala
 
-This was made to learn the basics of Scala for a future project in Apache Spark.
+This isn't a full enigma machine, I only tested with rotors I-III and reflector B.
+I made this to learn the basics of Scala for a future project.
 
 ## Commands
 

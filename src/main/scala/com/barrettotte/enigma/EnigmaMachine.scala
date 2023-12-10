@@ -1,6 +1,8 @@
 package com.barrettotte.enigma
 
-class EnigmaMachine(rotorLeft: Rotor, rotorMiddle: Rotor, rotorRight: Rotor, reflector: Rotor, plugboard: Map[Char, Char]) {
+class EnigmaMachine(rotorLeft: Rotor, rotorMiddle: Rotor, rotorRight: Rotor, reflector: Rotor, private var plugboard: Map[Char, Char]) {
+
+  def setPlugboard(p: Map[Char, Char]): Unit = plugboard = p
 
   def encrypt(input: String): String = input.map(encrypt).mkString
 
